@@ -16,7 +16,7 @@ function App() {
         <h1>banned: {banned.toString()}</h1>
         <button
           onClick={() => setBanned(!banned)}
-          className="px-3 py-1 rounded bg-sky-500 text-sm mt-2 text-white"
+          className="px-3 py-2 rounded bg-sky-500 text-sm mt-2 text-white"
         >
           Ban Karo
         </button>
